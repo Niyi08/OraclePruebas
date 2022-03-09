@@ -18,10 +18,10 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: RunOracleScripts@1
-  inputs:
-    scriptPath: '$(System.DefaultWorkingDirectory)'
-    user: 'Admin'
-    password: 'XhIS9Dm89P238!"#$'
-    databaseName: 'ALUMNOS'
+#- task: RunOracleScripts@1
+#  inputs:
+#    scriptPath: '$(System.DefaultWorkingDirectory)'
+#    user: 'Admin'
+#    password: 'XhIS9Dm89P238!"#$'
+#    databaseName: 'ALUMNOS'
 
