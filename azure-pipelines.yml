@@ -20,7 +20,10 @@ steps:
 
 - task: RunOracleScripts@1
   inputs:
-    scriptPath: '$(System.DefaultWorkingDirectory)'
+    scriptPath: '/ ADMIN.ALUMNOS.txt'
     user: 'ADMIN'
     password: 'Pruebas98230'
-    databaseName: 'aloaia'
+    databaseName: 'prueba'
+    logPath: '**'
+    failOnOraError: true
+    failOnNullFiles: true
