@@ -20,7 +20,7 @@ steps:
 
 - task: RunOracleScripts@1
   inputs:
-    scriptPath: '/ ADMIN.ALUMNOS.txt'
+    scriptPath: '/**'
     user: 'ADMIN'
     password: 'Pruebas98230'
     databaseName: 'prueba'
